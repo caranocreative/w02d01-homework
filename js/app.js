@@ -167,16 +167,30 @@ const bondFilms = [
 
 
 
-let bondTitles = [];
-for(film in bondFilms) {
-	bondTitles.push(bondFilms[film].title);
+// let bondTitles = [];
+// for(film in bondFilms) {
+// 	bondTitles.push(bondFilms[film].title);
+// }
+// console.log("for in loop");
+// console.log(bondTitles);
+
+// 6th commit - made an array of odd bonds
+
+
+//let evenBonds = [];
+let oddBonds = [];
+for(oddYear in bondFilms){ 
+	oddBonds.push(bondFilms[oddYear].year);
 }
-console.log("for in loop");
-console.log(bondTitles);
+
+
+// if(year % 2 === 0)
+// 	evenBonds.push()
 
 
 
-
+console.log("odd years");
+console.log(oddBonds);
 
 
 
