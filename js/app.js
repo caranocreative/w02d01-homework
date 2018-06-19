@@ -65,24 +65,53 @@
 
 // 2nd commit - created some data structures and accessed some data
 
-const rainbow = ['red', 'orange', 'blue', 'yellow', 'purple', 'green'];
-console.log(rainbow[2]);
+// const rainbow = ['red', 'orange', 'blue', 'yellow', 'purple', 'green'];
+// console.log(rainbow[2]);
 
 
-const laurie = {
-	favoriteFood: 'pasta',
-	hobby: 'pottery',
-	town: 'cos',
-	dataType: 'array'
+// const laurie = {
+// 	favoriteFood: 'pasta',
+// 	hobby: 'pottery',
+// 	town: 'cos',
+// 	dataType: 'array'
+// }
+// console.log(laurie.hobby);
+
+// 3rd commit - performed operations on the crazy object
+
+
+const crazyObject = {
+  taco: [{meat: 'steak',
+         cheese: ['panela', 'queso', 'chihuahua']},
+         
+         {meat: 'chicken',
+          salsa: ["pico", "hot", "hotter", "really hot", "really really hot", "omg my mouth is burning"]},
+        ],
+  larry: {
+    nicknames: ["LD", "Chicken Teriyaki Boyyyyyy"],
+    quotes: ["Pretty pretty prettayyyyy good", "Is that a parkinson's thing?", "women love a self confident bald man", "I'm a walking talking enigma"],
+    characters: [{
+      name: "Jeff",
+      occupation: "manager"
+    },
+    {
+      name: "funkhauser",
+      occupation: "tv dude"
+    },
+    {
+      name: "susie",
+      occupation: "jeffs wife",
+      favourtieHobby: "Swearing at Larry and Jeff"
+    },
+    ]
+  }
 }
-console.log(laurie.hobby);
 
-
-
-
-
-
-
+console.log(crazyObject.taco[1].salsa[5]);
+console.log(crazyObject.larry.quotes[0]);
+console.log(crazyObject.larry.characters[2].favourtieHobby);
+console.log(crazyObject.larry.nicknames[1]);
+console.log(crazyObject.larry.characters[1].name);
 
 
 
