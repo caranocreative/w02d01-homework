@@ -194,10 +194,15 @@ console.log(oddBonds);
 
 
 
+// last one - help
 
 
+let goodMoneyList = [];
+for(let i=0; i<moneylist; i++){
+  let goodMoney = changeStringToNum(moneyList[i]);
 
 
+}
 
 
 
